@@ -66,7 +66,7 @@ services:
     image: binwiederhier/ntfy
     command: serve
     ports:
-      - "8091:80"
+      - "8092:80"
     volumes:
       - ntfy-cache:/var/cache/ntfy
     environment:
